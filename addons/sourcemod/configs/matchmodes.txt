@@ -1,127 +1,170 @@
 "MatchModes"
 {
-	"ZoneMod Configs"
+	"Configuraciones 4v4"
 	{
 		"zonemod"
 		{
-			"name" "ZoneMod 2.8.9"
+			"name" "ZoneMod"
+		}
+		"cedamod"
+		{
+		    "name" "CedaMod"
 		}
 		"zoneretro"
 		{
-			"name" "ZoneMod Retro 2.8.9"
+			"name" "ZoneMod Retro"
 		}
-		"zm3v3"
-		{
-			"name" "3v3 ZoneMod"
-		}
-		"zm2v2"
-		{
-			"name" "2v2 ZoneMod"
-		}
-		"zm1v1"
-		{
-			"name" "1v1 ZoneMod"
-		}
-	}
-	"NeoMod Configs"
-	{
-		"neomod"
-		{
-			"name" "NeoMod Tourney 0.4a"
-		}
-	}
-	"NextMod Configs"
-	{
 		"nextmod"
 		{
-			"name" "NextMod 1.0.5"
+			"name" "NextMod"
 		}
-		"nextmod3v3"
+		"zonehunters"
 		{
-			"name" "3v3 NextMod"
+		    "name" "ZoneHunters"
 		}
-		"nextmod2v2"
+		"scavogl"
 		{
-			"name" "2v2 NextMod"
-		}
-		"nextmod1v1"
+		    "name" "ScavOgl"
+	    }
+		"scavhunters"
 		{
-			"name" "1v1 NextMod"
+		    "name" "ScavHunters"
 		}
-	}
-	"Promod Configs"
-	{
+		"neomod"
+		{
+			"name" "NeoMod"
+		}
 		"pmelite"
 		{
-			"name" "Promod Elite 1.1"
+			"name" "PromMod Elite"
+		}
+		"acemodrv"
+		{
+		    "name" "Acemod RV"
+		}
+		"eq"
+		{
+		    "name" "Equilibrium"
+		}
+		"apex"
+		{
+		    "name" "Apex"
 		}
 		"deadman"
 		{
-			"name" "Deadman 5.0.3"
+		    "name" "Deadman"
+		}
+		"tankzonevs"
+		{
+		    "name" "TankZoneVs"
 		}
 	}
-	"Acemod Revamped Configs"
+	"Configuraciones 3v3"
 	{
-		"acemodrv"
+		"zm3v3"
 		{
-			"name" "Acemod RV 1.3"
+			"name" "ZoneMod"
 		}
-		"amrv3v3"
+		"cm3v3"
 		{
-			"name" "3v3 Acemod RV"
+		    "name" "CedaMod"
 		}
-		"amrv2v2"
+		"nextmod3v3"
 		{
-			"name" "2v2 Acemod RV"
-		}
-		"amrv1v1"
-		{
-			"name" "1v1 Acemod RV"
-		}
-	}
-	"EQ Configs"
-	{
-		"eq"
-		{
-			"name" "Equilibrium 3.0c"
-		}
-		"eq3v3"
-		{
-			"name" "3v3 EQ"
-		}
-		"eq2v2"
-		{
-			"name" "2v2 EQ"
-		}
-		"eq1v1"
-		{
-			"name" "1v1 EQ"
-		}
-	}
-	"Apex Configs"
-	{
-		"apex"
-		{
-			"name" "Apex 1.1.2"
-		}
-	}
-	"Hunters Configs"
-	{
-		"zonehunters"
-		{
-			"name" "ZoneHunters 2.8.9"
+		    "name" "NextMod"
 		}
 		"zh3v3"
 		{
-			"name" "3v3 ZoneHunters"
+		    "name" "ZoneHunters"
+		}
+		"scav3v3"
+		{   
+		    "name" "ScavOgl"
+		}
+		"scavh3v3"
+		{
+		    "name" "ScavHunters"
+		}
+		"amrv3v3"
+		{
+		    "name" "Acemod RV"
+		}
+		"eq3v3"
+		{
+		    "name" "Equilibrium"
+		}		
+	}
+	"Configuraciones 2v2"
+	{
+		"zm2v2"
+		{
+			"name" "ZoneMod"
+		}
+		"nextmod2v2"
+		{
+			"name" "NextMod"
+		}
+		"cm2v2"
+		{
+		    "name" "CedaMod"
 		}
 		"zh2v2"
 		{
-			"name" "2v2 ZoneHunters"
+			"name" "ZoneHunters"
+		}
+		"scav2v2"
+		{
+			"name" "ScavOgl"
+		}
+		"scavh2v2"
+		{
+		    "name" "ScavHunters"
+		}
+		"amrv2v2"
+		{
+		    "name" "Acemod"
+		}
+		"eq2v2"
+		{
+		    "name" "Equilibrium"
+		}
+	}
+	"Configuraciones 1v1"
+	{
+		"zm1v1"
+		{
+			"name" "ZoneMod"
+		}
+		"nextmod1v1"
+		{
+			"name" "NextMod"
 		}
 		"zh1v1"
 		{
-			"name" "1v1 ZoneHunters"
+		    "name" "ZoneHunters"
+		}
+		"scav1v1"
+		{
+		    "name" "ScavOgl"
+		}
+		"scavh1v1"
+		{
+		    "name" "ScavHunters"
+		}
+		"amrv1v1"
+		{
+		    "name" "Acemod"
+		}
+		"eq1v1"
+		{
+		    "name" "Equilibrium"
 		}
 	}
+	"Mutaciones Confogl"
+	{
+	    "tankzonevs"
+		{
+		    "name" "TankZoneVs"
+		}
+	}	
 }
