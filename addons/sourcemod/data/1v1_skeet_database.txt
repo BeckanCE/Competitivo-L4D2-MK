@@ -1,0 +1,55 @@
+"skeetdata"
+{
+	"info"
+	{
+		"count"		"9"
+	}
+	"data"
+	{
+		"STEAM_1:0:715055340"
+		{
+			"skeet"		"10"
+			"Name"		"unk"
+		}
+		"STEAM_1:0:796329829"
+		{
+			"skeet"		"6"
+			"Name"		"Berlin"
+		}
+		"STEAM_1:1:538830175"
+		{
+			"skeet"		"19"
+			"Name"		"Aly"
+		}
+		"STEAM_1:1:538830175"
+		{
+			"skeet"		"10"
+			"Name"		"ϟTuyo"
+		}
+		"STEAM_1:0:632147501"
+		{
+			"skeet"		"6"
+			"Name"		"DOLSHETO"
+		}
+		"STEAM_1:1:435118066"
+		{
+			"skeet"		"19"
+			"Name"		"【нн】.navsª²"
+		}
+		"STEAM_1:0:561018845"
+		{
+			"skeet"		"3"
+			"Name"		"-fafs"
+		}
+		"STEAM_1:1:781503300"
+		{
+			"skeet"		"8"
+			"Name"		"亗EL D ASTORA NO - LA ATOROメ"
+		}
+		"STEAM_1:1:600348661"
+		{
+			"skeet"		"11"
+			"Name"		"【нн】TwilightFX"
+		}
+	}
+}

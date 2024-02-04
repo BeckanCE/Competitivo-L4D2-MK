@@ -1,0 +1,20 @@
+"skeetdata"
+{
+	"info"
+	{
+		"count"		"2"
+	}
+	"data"
+	{
+		"STEAM_1:1:435118066"
+		{
+			"skeet"		"3"
+			"Name"		"【нн】.navsª²"
+		}
+		"STEAM_1:0:433797535"
+		{
+			"skeet"		"1"
+			"Name"		"【нн】KillSouls"
+		}
+	}
+}
