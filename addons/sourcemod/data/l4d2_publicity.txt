@@ -1,0 +1,16 @@
+//==========//COLORS TAGS//
+//{blue}, {orange}, {olive} = green, {lightgreen}, 
+//{default} = white, {red}
+// -- EXAMPLE BELOW - ADD MANY LINES AS YOU WANT
+
+"publicity" {
+
+    "1" {
+          
+           "msg"            "[{olive}Emotes{default}] Usa bailes o emotes escribiendo {olive}!emotes{default} en el chat del juego." 
+ 
+         }
+
+
+
+}
