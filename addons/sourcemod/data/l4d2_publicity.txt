@@ -7,7 +7,7 @@
 
     "1" {
           
-           "msg"            "[{olive}Emotes{default}] Usa bailes o emotes escribiendo {olive}!emotes{default} en el chat del juego." 
+           "msg"            "[{olive}Emotes{default}] {green}Usa bailes o emotes escribiendo {olive}!emotes{green} en el chat del juego." 
  
          }
 

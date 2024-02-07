@@ -67,8 +67,8 @@ public void OnPluginStart()
 	OneShotSkeet 			= CreateConVar("skeet_database_announce_oneshot", 	"1", "Only count 'One Shot' skeet? [1: Yes, 0: No]", FCVAR_NOTIFY, true, 0.0, true, 1.0);
 	hCvarAnnounce 			= CreateConVar("skeet_database_announce", 			"0", "Announce skeet/shots in chatbox when someone skeets.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
 	g_hCvarModesTog 		= CreateConVar("skeet_database_modes_tog",			"4", "Turn on the plugin in these game modes. 0=All, 1=Coop, 2=Survival, 4=Versus. Add numbers together.", FCVAR_NOTIFY, true, 0.0, true, 7.0);
-	g_hCvarSurvivorRequired = CreateConVar("top_skeet_survivors_required",		"1", "Numbers of Survivors required at least to enable this plugin", FCVAR_NOTIFY , true, 1.0, true, 32.0);
-	g_hCvarAIHunter 		= CreateConVar("skeet_database_ai_hunter_enable",	"1", "Count AI Hunter also? [1: Yes, 0: No]", FCVAR_NOTIFY , true, 0.0, true, 1.0);
+	g_hCvarSurvivorRequired = CreateConVar("top_skeet_survivors_required",		"4", "Numbers of Survivors required at least to enable this plugin", FCVAR_NOTIFY , true, 1.0, true, 32.0);
+	g_hCvarAIHunter 		= CreateConVar("skeet_database_ai_hunter_enable",	"0", "Count AI Hunter also? [1: Yes, 0: No]", FCVAR_NOTIFY , true, 0.0, true, 1.0);
 	g_hCvar1v1Separate 		= CreateConVar("skeet_database_1v1_seprate",		"1", "Record 1v1 skeet database in 1v1 mode.", FCVAR_NOTIFY, true, 0.0, true, 1.0);
 
 	GetCvars();
@@ -745,14 +745,14 @@ void PrintTopSkeeters(int client)
 	if (oneshot == 1)
 	{
 		if(g_hCvar1v1Separate.BoolValue && Is1v1)
-			FormatEx(sBuffer, sizeof(sBuffer), "Mejores skeeters de One Shot");
+			FormatEx(sBuffer, sizeof(sBuffer), "Mejores Skeeters de One Shot en 1v1");
 		else
-			FormatEx(sBuffer, sizeof(sBuffer), "Mejores skeeters de One Shot");
+			FormatEx(sBuffer, sizeof(sBuffer), "Mejores Skeeters de One Shot");
 	}
 	else
 	{
 		if(g_hCvar1v1Separate.BoolValue && Is1v1)
-			FormatEx(sBuffer, sizeof(sBuffer), "Mejores %d Skeeters", TOP_NUMBER);
+			FormatEx(sBuffer, sizeof(sBuffer), "Mejores %d Skeeters en 1v1", TOP_NUMBER);
 		else 
 			FormatEx(sBuffer, sizeof(sBuffer), "Mejores %d Skeeters", TOP_NUMBER);
 	}
@@ -766,12 +766,12 @@ void PrintTopSkeeters(int client)
 			panel.DrawItem(sBuffer);
 		}
 		panel.DrawText("\n ");
-		FormatEx(sBuffer, sizeof(sBuffer), "Hay %d skeets en el servidor%s", totalskeets, (g_hCvar1v1Separate.BoolValue && Is1v1) ? " in 1v1." : ".");
+		FormatEx(sBuffer, sizeof(sBuffer), "Hay %d skeets en el servidor%s", totalskeets, (g_hCvar1v1Separate.BoolValue && Is1v1) ? " en 1v1." : ".");
 		panel.DrawText(sBuffer);
 	}
 	else
 	{
-		Format(sBuffer, sizeof(sBuffer), "Aún no hay skeets en el servidor%s", (g_hCvar1v1Separate.BoolValue && Is1v1) ? " in 1v1." : ".");
+		Format(sBuffer, sizeof(sBuffer), "There are no skeets on this server yet%s", (g_hCvar1v1Separate.BoolValue && Is1v1) ? " en 1v1." : ".");
 	}
 
 	if(client == 0)
