@@ -2,18 +2,22 @@
 {
 	"Tag"
 	{
-		"en"		"[{olive}AFK{default}]"
+		"en"        "[{olive}AFK{default}]"
+		"es"        "[{olive}AFK{default}]"
 	}
 	"Footer"
 	{
-		"en"		"Maxium time AFK: %d seg"
+		"en"        "Maxium time AFK: %d seg"
+		"es"        "Tiempo máximo AFK: %d seg"
 	}
 	"ShowTimer"
 	{
-		"en"		"You have {red}%d{default}s to mark Ready (Press {green}F1{default} or type {green}!ready{default})"
+		"en"        "You have {red}%d{default}s to mark Ready (Press {green}F1{default} or type {green}!ready{default})"
+		"es"        "Tienes {red}%d{default}s para marcar Ready (Presiona {green}F1{default} o escribe {green}!ready{default})"
 	}
     "MoveToSpec"
     {
         "en"        "{blue}%N{default} was moved to team {green}spectator{default}"
+		"es"        "{blue}%N{default} ha sido trasladado al equipo {green}espectador{default}"
     }
 }
