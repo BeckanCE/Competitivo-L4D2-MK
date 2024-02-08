@@ -1,0 +1,19 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}AFK{default}]"
+	}
+	"Footer"
+	{
+		"en"		"Maxium time AFK: %d seg"
+	}
+	"ShowTimer"
+	{
+		"en"		"You have {red}%d{default}s to mark Ready (Press {green}F1{default} or type {green}!ready{default})"
+	}
+    "MoveToSpec"
+    {
+        "en"        "{blue}%N{default} was moved to team {green}spectator{default}"
+    }
+}

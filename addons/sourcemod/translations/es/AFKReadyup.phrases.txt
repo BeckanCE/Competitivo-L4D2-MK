@@ -1,0 +1,15 @@
+"Phrases"
+{
+	"Footer"
+	{
+        "es"        "Tiempo máximo AFK: %d seg"
+	}
+	"ShowTimer"
+	{
+        "es"        "Tienes {red}%d{default}s para marcar ready (Presiona {green}F1{default} o escribe {green}!ready{default})"
+	}
+    "MoveToSpec"
+    {
+        "es"        "{blue}%N{default} ha sido trasladado al equipo {green}espectador{default}"
+    }
+}
