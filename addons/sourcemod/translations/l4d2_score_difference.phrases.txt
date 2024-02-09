@@ -3,19 +3,22 @@
 	"Announce_Chapter"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{green}!{default}] {default}Chapter difference: {green}{1}"
+		"en"        "{green}> {default}Chapter difference: {green}{1}"
+		"es"        "{green}> {default}Diferencia de capítulo: {green}{1}"
 	}
 	
 	"Announce_Total"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{olive}!{default}] {default}Total difference: {olive}{1}"
+		"en"        "{green}> {default}Total difference: {olive}{1}"
+		"es"        "{green}> {default}Diferencia total de puntuación: {olive}{1}"
 	}
 	
 	"Announce_ElseChapter"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{lightgreen}!{default}] {default}Difference: {lightgreen}{1}"
+		"en"        "{green}> {default}Difference: {lightgreen}{1}"
+		"es"        "{green}> {default}Diferencia de puntuación: {lightgreen}{1}"
 	}
 	
 	// The following translations are made optional
@@ -23,30 +26,32 @@
 	"Announce_Survivor"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{blue}!{default}] Survivor score: {blue}{1}"
+		"en"        "{green}> {default}Survivor score: {blue}{1}"
+		"es"        "{green}> {default}Puntuación de los supervivientes: {blue}{1}"
 	}
 	
 	"Announce_Infected"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{red}!{default}] Infected score: {red}{1}"
+		"en"        "{green}> {default}Infected score: {red}{1}"
+		"es"        "{green}> {default}Puntuación de los infectados: {red}{1}"
 	}
 	
 	"Announce_ComebackWithDistance"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{green}!{default}] Comeback with: {olive}{1}"
+		"en"		""
 	}
 	
 	"Announce_ComebackWithBonus"
 	{
 		"#format"	"{1:d},{2:d}"
-		"en"		"{default}[{green}!{default}] Comeback with: {olive}{1} {default}+ {green}{2}"
+		"en"		""
 	}
 	
 	"Announce_ComebackWithBonus_L4D1"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}[{green}!{default}] Comeback with: {green}{1}"
+		"en"		""
 	}
 }

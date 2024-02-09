@@ -2,7 +2,7 @@
 {
 	"Footer"
 	{
-        "es"        "Tiempo máximo AFK: %d seg"
+        "es"        "Anti-AFK: %d seg"
 	}
 	"ShowTimer"
 	{
