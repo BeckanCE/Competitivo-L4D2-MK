@@ -11,6 +11,12 @@
  
          }
 
+    "2" {
+          
+           "msg"            "{default}<{olive}VCC{default}> {green}Para cambiar a un mapa custom usa {olive}!vcc o !mapvote{green}." 
+ 
+         }
+
 
 
 }
