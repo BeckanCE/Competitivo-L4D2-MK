@@ -1,0 +1,182 @@
+//Available variables: {hostname},{servernum},{gamemode},{difficulty}
+//
+"GameMods"
+{
+	"difficulties"
+	{
+		"Easy"			""
+		"Normal"		""
+		"Hard"			""
+		"Impossible"	""
+	}
+	"versus"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"coop"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"survival"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"scavenge"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation02"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"realism"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation03"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community4"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community0"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community2"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community5"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"gunbrain"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"l4d0coop"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation00"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation04"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation06"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation2"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation20"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation3"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation4"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation5"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation7"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation8"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation9"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"holdout"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"dash"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"shootzones"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation05"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community3"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"community6"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"l4d0vs"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation00"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation08"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+	"mutation09"
+	{
+		"name"			""
+		"difficulty"	"0"
+	}
+}
