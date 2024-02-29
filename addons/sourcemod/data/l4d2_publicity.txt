@@ -13,7 +13,7 @@
 
     "2" {
           
-           "msg"            "{default}<{olive}VCC{default}> {green}Para cambiar a un mapa custom usa {olive}!vcc o !mapvote{green}. El tiempo de carga del mapa puede llegar a 90s." 
+           "msg"            "{default}<{olive}VCC{default}> {green}Mapas custom en: {olive}sirplease.gg/campaigns{green}. Para jugar uno usa {olive}!vcc{green}. La carga del mapa puede ser hasta 90s." 
  
          }
 
