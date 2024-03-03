@@ -24,12 +24,11 @@ void InitPanel()
 		cmdFooter.Add("->3. !voteboss <tank> <witch>");
 		cmdFooter.Add("->4. !match / !rmatch");
 		cmdFooter.Add("->5. !show / !hide");
-		cmdFooter.Add("->6. !mix / !stopmix");
-		cmdFooter.Add("->7. !vcc / !mapvote");
-		cmdFooter.Add("->8. !setscores <survs> <inf>");
-		cmdFooter.Add("->9. !lerps");
-		cmdFooter.Add("->10. !secondary");
-		cmdFooter.Add("->11. !forcestart / !fs");
+		cmdFooter.Add("->6. !vcc / !mapvote");
+		cmdFooter.Add("->7. !setscores <survs> <inf>");
+		cmdFooter.Add("->8. !lerps");
+		cmdFooter.Add("->9. !secondary");
+		cmdFooter.Add("->10. !forcestart / !fs");
 	}
 	
 	curCmd = 0;
