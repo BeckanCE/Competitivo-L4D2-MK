@@ -1,0 +1,23 @@
+"Phrases"
+{
+	"wing 1"
+	{
+		"en"		"Normal White"
+	}
+	"wing 2"
+	{
+		"en"		"Normal Blue"
+	}
+	"wing 3"
+	{
+		"en"		"Normal Cyan"
+	}
+	"wing 4"
+	{
+		"en"		"Normal Green"
+	}
+	"wing 5"
+	{
+		"en"		"Normal Red"
+	}
+}

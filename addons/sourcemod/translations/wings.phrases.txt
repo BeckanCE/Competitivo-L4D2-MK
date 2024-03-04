@@ -1,0 +1,63 @@
+"Phrases"
+{
+	"wing_Wearing"
+	{
+		"#format"		"{1:s}"
+		"en"			"You are now wearing the {green}[{1}] {white}wing."
+	}
+	"wing_Changed"
+	{
+		"#format"		"{1:s}"
+		"en"			"Changed wing on {green}{1}{white}."
+	}
+	"wing_No_Index"
+	{
+		"#format"		"{1:d}{2:d}"
+		"en"			"Cannot find the wing index {green}{1}{white}, values between {green}1{white} and {green}{2}{white}."
+	}
+	"wing_Not_Found"
+	{
+		"#format"		"{1:s}"
+		"en"			"Cannot find the wing {green}{1}{white}."
+	}
+	"wing_Invalid"
+	{
+		"en"			"Invalid player selected."
+	}
+	"wing_Unblocked"
+	{
+		"#format"		"{1:s}"
+		"en"			"Unblocked wings for {green}{1}{white}."
+	}
+	"wing_Blocked"
+	{
+		"#format"		"{1:s}"
+		"en"			"Blocked wings for {green}{1}{white}."
+	}
+	"wing_View"
+	{
+		"#format"		"{1:s}"
+		"en"			"{white}Personal wing view has been turned {green}{1}{white}."
+	}
+	"wing_Ability"
+	{
+		"#format"		"{1:s}"
+		"en"			"{white}You have turned {green}{1}{white} the ability to wear wings."
+	}
+	"wing_On"
+	{
+		"en"			"on"
+	}
+	"wing_Off"
+	{
+		"en"			"off"
+	}
+	"wing_Menu_Title"
+	{
+		"en"			"Select your wing."
+	}
+	"wing_Missing"
+	{
+		"en"			"You're not wearing a wing!"
+	}
+}
