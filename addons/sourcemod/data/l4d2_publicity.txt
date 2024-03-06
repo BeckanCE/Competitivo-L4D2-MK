@@ -13,7 +13,7 @@
 
     "2" {
           
-           "msg"            "{default}<{olive}VCC{default}> {green}Mapas custom en: {olive}sirplease.gg/campaigns{green}. Para jugar uno usa {olive}!vcc{green}. La carga del mapa puede ser hasta 90s." 
+           "msg"            "{green}<{olive}MKO{green}> Mapas custom en: {olive}sirplease.gg/campaigns{green}. Para jugar uno usa {olive}!vcc{green}. La carga del mapa puede ser hasta 90s." 
  
          }
 
