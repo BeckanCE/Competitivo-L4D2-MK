@@ -223,6 +223,7 @@ void StartRecord()
 		char sPath[PLATFORM_MAX_PATH];
 		char sTime[16];
 		char sMap[32];
+		char sDemoName[PLATFORM_MAX_PATH];
 
 		g_hDemoPath.GetString(sPath, sizeof(sPath));
 		FormatTime(sTime, sizeof(sTime), "%Y%m%d-%H%M%S", GetTime());
@@ -231,10 +232,15 @@ void StartRecord()
 		// replace slashes in map path name with dashes, to prevent fail on workshop maps
 		ReplaceString(sMap, sizeof(sMap), "/", "-", false);		
 
-		ServerCommand("tv_record \"%s/auto-%s-%s\"", sPath, sTime, sMap);
+		Format(sDemoName, sizeof(sDemoName), "auto-%s-%s.dem", sTime, sMap);
+
+		ServerCommand("tv_record \"%s/%s\"", sPath, sDemoName);
 		g_bIsRecording = true;
 
-		LogMessage("Recording to auto-%s-%s.dem", sTime, sMap);
+		LogMessage("Recording to %s", sDemoName);
+
+		// Imprimir mensaje en el chat
+		PrintToChatAll("[MakakoTV] Jugadores completados. La grabación de '%s' ha comenzado.", sDemoName);
 	}
 }
 

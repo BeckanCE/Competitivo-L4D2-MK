@@ -139,6 +139,10 @@
 		{
 			"name" "NextMod"
 		}
+		"nextmod1v1b"
+		{
+		    "name" "NextMod[T&W]"
+		}
 		"cm1v1"
 		{
 		    "name" "CedaMod"
